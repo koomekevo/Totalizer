@@ -52,4 +52,20 @@ export const Styles = StyleSheet.create({
     maxWidth: "100%",
     flexDirection: "row",
   },
+  viewBottom: {
+    position: "absolute",
+    bottom: 50,
+  },
+  screenFirstNumber: {
+    fontSize: 96,
+    color: myColors.gray,
+    fontWeight: "200",
+    alignSelf: "flex-end",
+  },
+  screenSecondNumber: {
+    fontSize: 40,
+    color: myColors.gray,
+    fontWeight: "200",
+    alignSelf: "flex-end",
+  },
 });
